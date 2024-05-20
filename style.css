@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.container {
+    min-height: 1000px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .konten {
+    text-align: center;
+}
+
+.container .konten h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+.container .konten h3 span {
+    color: pink;
+}
+
+.container .konten h1 {
+    color: #333;
+    font-size: 50px;
+}
+
+.container .konten p{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.container .konten .tombol {
+    display: inline-block;
+    padding: 10px 40px;
+    font: 25px;
+    background-color: #333;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.container .konten .tombol:hover {
+    background: pink;
+}
+
+.form-contain {
+    min-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+
+.form-contain form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    background: white;
+    text-align: center;
+    width: 500px;
+}
+
+.form-contain form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-contain form input, 
+.form-contain form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+}
+
+.form-contain form select option {
+    background: #fff;
+}
+
+.form-contain form .form-tombol {
+    background: #333;
+    color:pink;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-contain form .form-tombol:hover {
+    background: pink;
+    color: #fff;
+}
+
+.form-contain form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-contain form p a {
+    color: pink;
+}
+
+.form-contain form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: pink;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
